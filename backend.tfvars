@@ -1,3 +1,3 @@
 bucket  = "tp-terraform-ynov"
 key     = "instances_meyer.tfstate
-region  = "var.region"
+region = "eu-west-3"
