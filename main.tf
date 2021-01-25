@@ -33,9 +33,9 @@ resource "aws_instance" "web" {
 }
 
 
-resource "aws_security_group" "security_group_jenkins_martin" {
+resource "aws_security_group" "security_group" {
   name = "instance_terraform_meyer" 
-  description = "rule parfaite"
+  description = "STP FONCTIONNE"
 
   ingress {
     from_port = 22
