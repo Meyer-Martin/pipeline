@@ -1,4 +1,5 @@
 properties([pipelineTriggers([githubPush()])])
+terraform init -backend-config=backend.tfvars
 
 pipeline {
     agent { 
