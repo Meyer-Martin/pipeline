@@ -9,7 +9,7 @@ pipeline {
         }
     }
     options {
-        withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'aws_cred_martin', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']])
+        withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'aws_cred_ynov_0', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']])
 
     }
 
